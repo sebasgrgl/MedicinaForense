@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:background="@drawable/background">
+
+    <TextView
+        android:id="@+id/textView_choose5"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="15dp"
+        android:text="Escoge un caso"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/Button_pedestrian"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView_choose5"
+        android:layout_below="@+id/textView_choose5"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button_custom"
+        android:onClick="goPedestrian"
+        android:text="Peatón"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/Button_driver"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Button_pedestrian"
+        android:layout_below="@+id/Button_pedestrian"
+        android:layout_marginTop="19dp"
+        android:background="@drawable/button_custom"
+        android:onClick="goDriver"
+        android:text="Conductor"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

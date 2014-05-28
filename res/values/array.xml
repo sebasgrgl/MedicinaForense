@@ -1,0 +1,7 @@
+<resources>
+    <string-array name="sections">
+        <item >Externo</item>
+        <item >Interno</item>
+        <item >Toma de Muestras</item>
+    </string-array>
+</resources>

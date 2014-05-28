@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/background">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.71" >
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textView1"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="26dp"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/Button01"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="222dp"
+                android:background="@drawable/button_custom"
+        		android:drawableLeft="@drawable/gun"
+        		android:text="Arma de Fuego"
+        		android:textColor="@color/white"
+                android:layout_height="50dp"
+                android:onClick="goCheckList1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/linearLayout1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="14dp"
+            android:orientation="vertical" >
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/Button02"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="222dp"
+            android:background="@drawable/button_custom"
+            android:drawableLeft="@drawable/knife"
+            android:layout_height="50dp"
+            android:text="Arma Blanca"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/white"
+            android:layout_alignLeft="@+id/linearLayout1"
+            android:layout_below="@+id/linearLayout1"
+            android:onClick="goCheckList2" />
+
+        <Button
+            android:id="@+id/Button03"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="222dp"
+            android:background="@drawable/button_custom"
+        	android:drawableLeft="@drawable/adult"
+        	android:text="Adultos"
+       		android:textColor="@color/white"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:layout_alignLeft="@+id/button1"
+            android:layout_below="@+id/button1"
+            android:onClick="goCheckList3" />
+
+        <Button
+            android:id="@+id/Button04"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="222dp"
+            android:background="@drawable/button_custom"
+       		android:drawableLeft="@drawable/child"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:text="Niños"
+            android:textColor="@color/white"
+            android:layout_alignLeft="@+id/Button02"
+            android:layout_below="@+id/Button02"
+             android:onClick="goCheckList4"/>
+
+        <Button
+            android:id="@+id/Button05"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="222dp"
+            android:background="@drawable/button_custom"
+        	android:drawableLeft="@drawable/crash"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:text="Accidente Tránsito"
+        	android:textColor="@color/white"
+            android:layout_alignBaseline="@+id/Button04"
+            android:layout_alignBottom="@+id/Button04"
+            android:layout_alignLeft="@+id/Button03"
+            android:onClick="goCheckList5" />
+
+        <TextView
+            
+             android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/linearLayout1"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="26dp"
+            android:textColor="@color/button_blue"
+            android:text="@string/Autopsies"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/button1"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="222dp"
+            android:background="@drawable/button_custom"
+        	android:drawableLeft="@drawable/asphyxia"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:text="Asfixia"
+        	android:textColor="@color/white"
+            android:layout_above="@+id/Button02"
+            android:layout_marginLeft="15dp"
+            android:layout_toRightOf="@+id/linearLayout2"
+            android:onClick="goCheckList6" />
+
+        <Button
+            android:id="@+id/Button06"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="222dp"
+            android:background="@drawable/button_custom"
+        	android:drawableLeft="@drawable/fire"
+        	android:text="Quemaduras"
+        	android:textColor="@color/white"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:layout_above="@+id/button1"
+            android:layout_alignLeft="@+id/button1"
+            android:onClick="goCheckList7" />
+
+    </RelativeLayout>
+
+</LinearLayout>

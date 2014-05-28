@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:background="@drawable/background">
+
+    <TextView
+        android:id="@+id/textView_choose"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="15dp"
+        android:text="Escoge un tipo de revisión"
+        android:textSize="24sp" />
+    
+    <Button
+        android:id="@+id/Button_External"
+        android:layout_width="fill_parent"
+        android:layout_height="37dp"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_custom"
+        android:layout_below="@+id/textView_choose"
+        android:text="Externa"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="5dp"
+        android:onClick="goExternal" />
+
+    <Button
+        android:id="@+id/Button_Internal"
+        android:layout_width="fill_parent"
+        android:layout_height="37dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/button_custom"
+        android:layout_below="@+id/Button_External"
+        android:text="Interna"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        android:textStyle="bold" 
+        android:layout_marginBottom="4dp"
+        android:onClick="goInternal"/>
+
+    <Button
+        android:id="@+id/Button_Samples"
+        android:layout_width="fill_parent"
+        android:layout_height="37dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/button_custom"
+        android:layout_below="@+id/Button_Internal"
+        android:text="Toma de Muestras"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        android:textStyle="bold" 
+        android:layout_marginBottom="4dp"
+        android:onClick="goSamples"/>
+
+        
+
+</RelativeLayout>

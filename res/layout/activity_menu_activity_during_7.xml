@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:background="@drawable/background">
+
+    <TextView
+        android:id="@+id/textView_choose7"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="15dp"
+        android:text="Escoge un caso"
+        android:textSize="24sp" />
+    
+    <Button
+        android:id="@+id/Button_humidity"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_custom"
+        android:layout_below="@+id/textView_choose7"
+        android:text="Calor Húmedo"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="5dp"
+        android:onClick="goHumidity" />
+
+    <Button
+        android:id="@+id/Button_dry"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Button_humidity"
+        android:layout_below="@+id/Button_humidity"
+        android:background="@drawable/button_custom"
+        android:onClick="goDry"
+        android:text="Calor Seco - Escaldaduras"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

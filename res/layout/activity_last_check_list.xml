@@ -1,0 +1,125 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true" >
+
+    <!-- Here you put the rest of your current view -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin" >
+
+        <TextView
+            android:id="@+id/txt_last_list_activity"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/clinica_forense"
+            android:textSize="24sp" />
+
+        <CheckBox
+            android:id="@+id/chx_last_list_activity_uno"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_last_list_activity"
+            android:text="@string/paso_uno" />
+
+        <CheckBox
+            android:id="@+id/chx_last_list_activity_dos"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/chx_last_list_activity_uno"
+            android:text="@string/paso_dos" />
+
+        <CheckBox
+            android:id="@+id/chx_last_list_activity_tres"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/chx_last_list_activity_dos"
+            android:text="@string/paso_tres" />
+
+        <TextView
+            android:id="@+id/txt_recommendations"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/chx_last_list_activity_tres"
+            android:gravity="left"
+            android:text="@string/recommendations"
+            android:textSize="16sp" />
+
+        <CheckBox
+            android:id="@+id/chx_last_list_recomendaciones_uno"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_recommendations"
+            android:text="@string/recomendaciones_uno" />
+
+        <CheckBox
+            android:id="@+id/chx_last_list_recomendaciones_dos"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/chx_last_list_recomendaciones_uno"
+            android:text="@string/recomendaciones_dos" />
+
+        <CheckBox
+            android:id="@+id/chx_last_list_recomendaciones_tres"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/chx_last_list_recomendaciones_dos"
+            android:text="@string/recomendaciones_tres" />
+
+        <CheckBox
+            android:id="@+id/chx_last_list_recomendaciones_cuatro"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/chx_last_list_recomendaciones_tres"
+            android:text="@string/recomendaciones_cuatro" />
+
+        <CheckBox
+            android:id="@+id/chx_last_list_recomendaciones_cinco"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/chx_last_list_recomendaciones_cuatro"
+            android:text="@string/recomendaciones_cinco" />
+
+        <TextView
+            android:id="@+id/txt_copies"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/chx_last_list_recomendaciones_cinco"
+            android:gravity="left"
+            android:text="@string/recommendations"
+            android:textSize="16sp" />
+
+        <CheckBox
+            android:id="@+id/chx_last_list_copias_uno"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_copies"
+            android:text="@string/copias_uno" />
+
+        <CheckBox
+            android:id="@+id/chx_last_list_copias_dos"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/chx_last_list_copias_uno"
+            android:text="@string/copias_dos" />
+        
+        <Button
+           android:id="@+id/btn_come_back"
+           style="@style/log_in_button"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_centerHorizontal="true"
+           android:layout_below="@id/chx_last_list_copias_dos"
+           android:background="@drawable/log_in_button"
+           android:gravity="center"
+           android:text="Volver al Inicio" />
+    </RelativeLayout>
+
+</ScrollView>

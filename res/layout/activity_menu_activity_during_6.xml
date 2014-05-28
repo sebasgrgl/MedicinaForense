@@ -1,0 +1,76 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:background="@drawable/background">
+
+    <TextView
+        android:id="@+id/textView_choose6"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="15dp"
+        android:text="Escoge un caso"
+        android:textSize="24sp" />
+    
+    <Button
+        android:id="@+id/Button_compression"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_custom"
+        android:layout_below="@+id/textView_choose6"
+        android:text="Compresión"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="5dp"
+        android:onClick="goCompression" />
+
+    <Button
+        android:id="@+id/Button_restriction"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/button_custom"
+        android:layout_below="@+id/Button_compression"
+        android:text="Restricción Respiratoria"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        android:textStyle="bold" 
+        android:layout_marginBottom="4dp"
+        android:onClick="goRestriction"/>
+
+    <Button
+        android:id="@+id/Button_intoxication"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/button_custom"
+        android:layout_below="@+id/Button_restriction"
+        android:text="Intoxicación"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        android:textStyle="bold" 
+        android:layout_marginBottom="4dp"
+        android:onClick="goIntoxication"/>
+    
+    <Button
+        android:id="@+id/Button_inmersion"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/button_custom"
+        android:layout_below="@+id/Button_intoxication"
+        android:text="Inmersión"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        android:textStyle="bold" 
+        android:layout_marginBottom="4dp"
+        android:onClick="goInmersion"/>
+
+        
+
+</RelativeLayout>

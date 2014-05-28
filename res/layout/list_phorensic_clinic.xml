@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="4sp" >
+    </View>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="54sp"
+        android:background="@drawable/list_phorensic_clinic"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@+id/label"
+            android:textColor="@color/white"
+            android:textSize="20sp" >
+        </TextView>
+
+        <ImageView
+            android:id="@+id/icon"
+            android:layout_width="32sp"
+            android:layout_height="32sp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:contentDescription="@string/empty"
+            android:src="@drawable/blue_arrow" >
+        </ImageView>
+    </RelativeLayout>
+
+</LinearLayout>

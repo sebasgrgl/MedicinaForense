@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Medicina Forense</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_autopsy">Autopsias</string>
+    <string name="title_activity_check_list">CheckListActivity</string>
+    <string name="During_External">Examen Externo</string>
+    <string name="During_Internal">Examen Interno</string>
+    <string name="During_Samples">Toma de Muestras</string>
+    <string name="Before">Antes</string>
+    <string name="After">Después</string>
+    <string name="Autopsy">Tipos de Autopsia</string>
+    <string name="Asphyxia">Asfixia</string>
+    <string name="empty"></string>
+    <string name="Autopsies">AUTOPSIAS </string>
+    <string name="PhorensicClinic">CLÍNICA FORENSE</string>
+    <string name="log_in">Iniciar</string>
+    <string name="gun">MUERTE POR PROYECTIL DE ARMA DE FUEGO</string>
+    <string name="knife">MUERTE POR HERIDA DE ARMA BLANCA</string>
+    <string name="adult">SIN CAUSA APARENTE EN ADULTOS</string>
+    <string name="child">SIN CAUSA APARENTE EN NIÑOS</string>
+    <string name="crash">MUERTE POR EVENTO DE TRANSITO</string>
+    <string name="asphyxia">MUERTE POR ASFIXIA</string>
+    <string name="burn">MUERTE POR QUEMADURAS</string>
+    <string name="title_activity_gun">GunActivity</string>
+    <string name="title_activity_phorensic_clinic">Clínica Forense</string>
+    <string name="title_activity_menu__home">Principal</string>
+    <string name="clinica_forense">Clinica Forense</string>
+    <string name="choose_an_option">Escoge una opción</string>
+    <string name="title_activity_check_list_activity_during_external">CheckListActivityDuringExternal</string>
+    <string name="title_activity_check_list_activity_during_samples">CheckListActivityDuringSamples</string>
+    <string name="title_activity_menu_activity_during">Menu de Actividad</string>
+    <string name="title_activity_finish_check_lists">Felicidades</string>
+    <string name="title_activity_asphyxia">Durante</string>
+    <string name="title_activity_image">Flujo de Actividades</string>
+    <string name="next">Siguiente</string>
+    <string name="title_activity_first_check_list">Recepción del Caso</string>
+    <string name="title_activity_last_check_list">Envio del Informe Pericial</string>
+    <string name="last_activity">Actividad 6: Envío del Informe Pericial y Archivo – Lista de chequeo</string>
+	<string name="recommendations">Para el archivo del caso tenga en cuenta:</string>
+	<string name="copies">Tomar dos copias al informe:</string>
+	<string name="paso_uno">Firma del informe pericial</string>
+    <string name="paso_dos">Garantizar conservación, preservación, reserva e integridad de los documentos</string>
+    <string name="paso_tres">Toda evidencia física o elemento materia de prueba debe ser adecuadamente embalado y rotulado antes del envío, con el respectivo diligenciamiento del registro de cadena de custodia</string>
+    <string name="recomendaciones_uno">Informe pericial</string>
+    <string name="recomendaciones_dos">Consentimiento informado diligenciado</string>
+    <string name="recomendaciones_tres">Adjuntar diagramas, calcos, material fotográfico y radiografías que ilustren el caso</string>
+    <string name="recomendaciones_cuatro">Reporte de interconsultas a otros servicios y laboratorios</string>
+    <string name="recomendaciones_cinco">Oficio petitorio y documentos asociados: copia de la denuncia, historia clínica, acta de inspección de la escena</string>
+    <string name="copias_uno">"Original y una copia se enviara a la autoridad</string>
+    <string name="copias_dos">Otra copia para el archivo</string>
+    <string name="goHome">Inicio</string>
+</resources>

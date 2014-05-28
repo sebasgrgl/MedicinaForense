@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:background="@drawable/background">
+
+    <TextView
+        android:id="@+id/textView_choose4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="15dp"
+        android:text="Escoge un caso"
+        android:textSize="24sp" />
+    
+    <Button
+        android:id="@+id/Button_recien"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_custom"
+        android:layout_below="@+id/textView_choose4"
+        android:text="Recién Nacido"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="5dp"
+        android:onClick="goRecien" />
+
+    <Button
+        android:id="@+id/Button_lactante"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/button_custom"
+        android:layout_below="@+id/Button_recien"
+        android:text="Lactante"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        android:textStyle="bold" 
+        android:layout_marginBottom="4dp"
+        android:onClick="goLactante"/>
+
+    <Button
+        android:id="@+id/Button_prescolar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/button_custom"
+        android:layout_below="@+id/Button_lactante"
+        android:text="Preescolar y Escolar"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        android:textStyle="bold" 
+        android:layout_marginBottom="4dp"
+        android:onClick="goEscolar"/>
+
+        
+
+</RelativeLayout>

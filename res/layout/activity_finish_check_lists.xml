@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".FinishCheckListsActivity" >
+
+    <TextView
+        android:id="@+id/textView_finish"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:paddingTop="10dp"
+        android:text="Ha finalizado correctamente esta actividad"
+        android:textColor="@color/button_blue"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView_next"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/relativeLayout1"
+        android:layout_below="@+id/textView_finish"
+        android:layout_marginTop="28dp"
+        android:gravity="center_horizontal"
+        android:padding="10dp"
+        android:text="¿Qué desea hacer?"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/findSelectedDuring"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_custom"
+        android:layout_below="@+id/textView_next"
+        android:layout_centerHorizontal="true"
+        android:text="Iniciar Nueva Autopsia"
+        android:onClick="goAutopsies"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/gotoHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/findSelectedDuring"
+        android:layout_alignRight="@+id/findSelectedDuring"
+        android:layout_below="@+id/findSelectedDuring"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_custom"
+        android:onClick="goHome"
+        android:text="Volver al menu principal"
+        android:textColor="@color/white" />
+
+</RelativeLayout>
